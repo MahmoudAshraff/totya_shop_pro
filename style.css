@@ -44,7 +44,13 @@ body{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial;backgro
 /* selects */
 .selects{display:flex;gap:10px;align-items:center}
 .select-wrap{position:relative}
-.custom-select{appearance:none;padding:10px 36px 10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,0.04);background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));color:var(--text);min-width:160px;font-weight:600;box-shadow:0 10px 30px rgba(2,6,23,0.5);transition:var(--transition)}
+.custom-select {
+  appearance: auto;
+  background: var(--surface);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15);}
 .select-icon{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:var(--muted)}
 
 /* cart button */
