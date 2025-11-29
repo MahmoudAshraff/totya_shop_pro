@@ -29,6 +29,10 @@ body{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial;backgro
 /* header */
 .header{position:sticky;top:0;z-index:90;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,0.02)}
 .header-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand.gold {
+  color: var(--gold);
+  font-weight: 800;
+  letter-spacing: 0.5px;}
 .brand{font-weight:700;font-size:20px}
 .brand .dot{color:var(--gold);margin-left:6px}
 
